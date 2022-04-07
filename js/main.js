@@ -30,7 +30,7 @@ smallDevice.addListener(handleDeviceScreen)
 function handleDeviceScreen (e){
     if(e.matches){
         window.alert('Mohon maaf, Apps ini tidak bisa diakses dilayar 320px');
-        container.classList.toggle('smallDevice').innerHTML = "Mohon maaf, tidak bisa dibuka dilayar ukuran dilayar 320px"
+        container.classList.toggle('smallDevice').innerHTML = "Mohon maaf, tidak bisa dibuka dilayar ukuran 320px"
     }else{
         document.querySelector('.smallDevice').classList.remove('smallDevice');
     }
