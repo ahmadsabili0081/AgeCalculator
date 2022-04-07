@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+.smallDevice{
+    display: none;
+}
+.app{
+    width: 400px;
+    margin: 50px auto;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input__group{
+    width: 100%;
+    margin-top: 10px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px;
+    display: block;
+}
+input[type="date"]{
+    width: 100%;
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid rgb(221, 220, 220);
+    outline: none;
+    cursor: pointer;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: darkgray;
+    color: #fff;
+}
+.resultAge{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: #fff;
+    background-color: darkgray;
+}
+@media screen and (max-width:570px) {
+    .container{
+        width:100%;
+    }
+    .app{
+        width: 100%;
+    }
+}
